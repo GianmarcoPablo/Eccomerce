@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="img/udemy.svg" alt="udemy">
+        </div>
+        <nav>
+            <ul class="header__ul">
+                <li class="header__li"><a href="#">Home</a></li>
+                <li class="header__li"><a href="#">About</a></li>
+                <li class="header__li"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="submenu">
+            <img src="img/cart.png" id="img-carrito">
+            
+            <div id="carrito">
+                <table id="lista-carrito" class="u-full-width">
+                    <thead>
+                        <tr class="tr">
+                            <th>Imagen</th>
+                            <th>Nombre</th>
+                            <th>Precio</th>
+                            <th>Cantidad</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+                <a href="#" id="vaciar-carrito" class="button">Vaciar Carrito</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="main__listaCursos">
+            <div class="curso">
+                <img src="https://robohash.org/179.6.198.7.png" alt="curso1">
+                <h3>Curso de HTML</h3>
+                <p>Precio: $10</p>
+                <a href="#" class="main__btn" data-id="1">Comprar</a>
+            </div class="curso">
+            <div class="curso">
+                <img src="https://robohash.org/2">
+                <h3>Curso de CSS</h3>
+                <p>Precio: $10</p>
+                <a href="#" class="main__btn" data-id="2">Comprar</a>
+            </div>
+            <div class="curso">
+                <img src="https://robohash.org/3">
+                <h3>Curso de JS</h3>
+                <p>Precio: $10</p>
+                <a href="#" class="main__btn" data-id="3">Comprar</a>
+            </div>
+            <div class="curso"> 
+                <img src="https://robohash.org/4">
+                <h3>Curso de REACT</h3>
+                <p>Precio: $10</p>
+                <a href="#" class="main__btn" data-id="4">Comprar</a>
+            </div>
+            <div class="curso">
+                <img src="https://robohash.org/5">
+                <h3>Curso de TAILWIND</h3>
+                <p>Precio: $10</p>
+                <a href="#" class="main__btn" data-id="5">Comprar</a>
+            </div>
+            <div class="curso">
+                <img src="https://robohash.org/6">
+                <h3>Curso de SVELTE</h3>
+                <p>Precio: $10</p>
+                <a href="#" class="main__btn" data-id="6">Comprar</a>
+            </div>
+            <div class="curso">
+                <img src="https://robohash.org/7">
+                <h3>Curso de ANGULAR</h3>
+                <p>Precio: $10</p>
+                <a href="#" class="main__btn" data-id="7">Comprar</a>
+            </div>
+            <div class="curso">
+                <img src="https://robohash.org/8">
+                <h3>Curso de VUEJS</h3>
+                <p>Precio: $10</p>
+                <a href="#" class="main__btn" data-id="8">Comprar</a>
+            </div> 
+            <div class="curso">
+                <img src="https://robohash.org/9">
+                <h3>Curso de NODEJS</h3>
+                <p>Precio: $10</p>
+                <a href="#" class="main__btn" data-id="9">Comprar</a>
+            </div>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
